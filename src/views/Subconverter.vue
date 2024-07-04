@@ -292,7 +292,7 @@ export default {
       form: {
         sourceSubUrl: "",
         clientType: "",
-        customBackend: "",
+        customBackend: window.location.origin,
         remoteConfig: "",
         excludeRemarks: "",
         includeRemarks: "",
